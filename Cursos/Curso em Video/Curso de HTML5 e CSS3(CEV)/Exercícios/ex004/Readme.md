@@ -1,0 +1,2 @@
+# OBS
+- Exercício referente a aula **C6 Aula 5- Como mudar o favicon de um site** veja o [notion](https://interesting-repair-ac1.notion.site/C6-Aula-5-Como-mudar-o-favicon-de-um-site-bd81221295154d77b55583903d3cbada):page_facing_up:
