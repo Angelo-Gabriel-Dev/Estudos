@@ -1,0 +1,2 @@
+# OBS
+- Exercício referente a aula **C5 Aula 2- Símbolos e Emojis no seu site** veja o [notion](https://interesting-repair-ac1.notion.site/C5-Aula-1-S-mbolos-e-Emojis-no-seu-site-fb5cd830d6b341628e44b57d43a63ce3):page_facing_up:
