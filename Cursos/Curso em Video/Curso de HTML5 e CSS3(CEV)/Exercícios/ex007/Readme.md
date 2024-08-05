@@ -1,0 +1,2 @@
+# OBS
+- Exercício referente a aula **C8 Aula 1- Semântica na HTML5 é importante** veja o [notion](https://interesting-repair-ac1.notion.site/C7-Aula-1-Hierarquia-de-T-tulos-6af7afd97a5f47788b1039fde4c92a4b):page_facing_up:
