@@ -1,0 +1,2 @@
+# OBS
+- Exercício referente a aula **C10 Aula 1- Links e Âncoras em HTML5** veja o [notion](https://interesting-repair-ac1.notion.site/C10-Aula-1-Links-e-ncoras-em-HTML5-ef76877bfa0e41c6a9f3f9590641df4e):page_facing_up:
