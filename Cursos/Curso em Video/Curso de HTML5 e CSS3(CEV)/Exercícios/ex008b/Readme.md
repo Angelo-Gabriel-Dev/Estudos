@@ -1,0 +1,2 @@
+# OBS
+- Exercício referente a aula **C8 Aula 4- Citações e Códigos em HTML** veja o [notion](https://interesting-repair-ac1.notion.site/C8-Aula-4-Cita-es-e-C-digos-em-HTML-7c15ed438fae4bb0b1ee042700d4f7cd):page_facing_up:
