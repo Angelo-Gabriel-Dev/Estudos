@@ -1,0 +1,2 @@
+# OBS
+- Exercício referente a aula **C11 Aula 1- Imagens Dinâmicas** veja o [notion](https://interesting-repair-ac1.notion.site/C11-Aula-1-Imagens-Din-micas-20ca515cb29a4f51afb9abafaaaff635):page_facing_up:
