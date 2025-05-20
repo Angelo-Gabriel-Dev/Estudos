@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(0 , 0, 0, 1);
+    background-image: url(/LoginPage/images/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.forms {
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    background-color: rgb(0 , 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.Title {
+    font-size: 45px;
+    font-family: verdana;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+    color: aquamarine;
+}
+
+.aviso {
+    font-family: verdana;
+    text-align: center;
+    background-color: rgb(0 , 0, 0, 0.5);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: rgb(236, 108, 99);
+}
+
+.Data {
+    padding: 4px;
+    display: block;
+    margin: 10px auto;
+    font-family: verdana;
+    width: 300px;
+    height: 20px;;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(255 , 255, 255, 1);
+}
+
+label {
+    display: block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.b1:link, .b1:visited {
+    background-color: rgb(25, 107, 80);
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family:verdana;
+    border: 2px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.b1:hover{
+    background-color: rgb(27, 165, 119);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    transform: scale(1.05) ;
+}
+.b1:active {
+    font-size: 14px;
+}
+.b2, .b2:visited .b2:link {
+    font-size: 12px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 8px 18px;
+    font-family: sans-serif;
+    background-color: rgb(25, 107, 80);
+    border: 2px solid white;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.b2:hover {
+    background-color: rgb(27, 165, 119);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+     transform: scale(1.05) ;
+}
+
+.ES {
+    color: white;
+}
+
+#ComForg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Logo {
+    width: 250px;
+    height: 250px;
+}
