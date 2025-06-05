@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: #0b58ff;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 103px;
+}
+.logo {
+    color: white;
+    text-decoration: none;
+    margin-right: 130px;
+    padding-left: 15px;
+}
+.buttons {
+    padding: 20px 40px;
+    border-style: none;
+    background-color: #0b58ff;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.2s, font-size 0.2s;
+}
+.buttons:hover {
+    background-color: #0a368d;
+    transition: background-color 0.2s;
+    color: white;
+    cursor: pointer;
+}
+nav, .nav-links {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+}
