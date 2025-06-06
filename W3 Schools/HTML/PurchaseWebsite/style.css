@@ -3,6 +3,7 @@ body {
 }
 header {
     background-color: #0b58ff;
+    width: 100vw;
     font-size: 20px;
     color: white;
     display: flex;
@@ -33,15 +34,19 @@ header {
     color: white;
     cursor: pointer;
 }
-nav, .nav-links {
+nav{
     display: flex;
+    width: 100%;
     text-align: center;
     list-style-type: none;
-    align-items: center;
 }
-#search {
+.nav-buttons{
+    display: flex;
+    list-style-type: none;
+}
+#search{
     padding: 0px 10px;
-    width: 340px;
+    width: 180px;
     font-size: 16px;
     border-radius: 40px;
     border-style:outset;
@@ -50,11 +55,26 @@ nav, .nav-links {
     font-family:sans-serif;
     outline-style:none;
     height: 45px;
-    margin-left: 30px;
+    transition: width 0.2s ease-in-out;
+}
+#search-container {
+    display: flex;
+    margin-left: auto;
+    align-items: center;;
+}
+#search:focus {
+    width: 390px;
+    transition: width 0.3s ease-in-out;
+}
+#search:webkit-search-clear-button {
+    -webkit-appearance: none;
+    appearance: none;
 }
 #menu-icon {
-    margin-left: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     scale: 1.8;
     cursor: pointer;
+    margin: 20px;
+    display: flex;
+    margin-bottom: 26px;
 }
