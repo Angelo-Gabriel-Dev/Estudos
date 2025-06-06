@@ -8,20 +8,24 @@ header {
     display: flex;
     flex-direction: row;
     height: 103px;
+    align-items: center;;
 }
 .logo {
     color: white;
     text-decoration: none;
-    margin-right: 130px;
+    margin-right: 13px;
     padding-left: 15px;
+    font-size: 60px;
 }
 .buttons {
-    padding: 20px 40px;
+    padding: 30px 40px;
     border-style: none;
     background-color: #0b58ff;
     color: white;
     font-size: 20px;
-    transition: background-color 0.2s, font-size 0.2s;
+   transition: background-color 0.2s;
+    font-weight: bold;
+    border-radius: 5px;
 }
 .buttons:hover {
     background-color: #0a368d;
@@ -33,4 +37,24 @@ nav, .nav-links {
     display: flex;
     text-align: center;
     list-style-type: none;
+    align-items: center;
+}
+#search {
+    padding: 0px 10px;
+    width: 340px;
+    font-size: 16px;
+    border-radius: 40px;
+    border-style:outset;
+    border-width: 4px;
+    border-color: #79a3fe;
+    font-family:sans-serif;
+    outline-style:none;
+    height: 45px;
+    margin-left: 30px;
+}
+#menu-icon {
+    margin-left: 30px;
+    margin-bottom: 5px;
+    scale: 1.8;
+    cursor: pointer;
 }
