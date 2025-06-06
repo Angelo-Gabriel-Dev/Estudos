@@ -1,9 +1,16 @@
-body {
+html, body {
     margin: 0;
+    height: 160%;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 header {
     background-color: #0b58ff;
-    width: 100vw;
+    width: 100%;
     font-size: 20px;
     color: white;
     display: flex;
@@ -77,4 +84,21 @@ nav{
     margin: 20px;
     display: flex;
     margin-bottom: 26px;
+}
+main {
+    text-align: center;
+    flex: 1;
+}
+#footer-text {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+footer {
+    background-color: #0b58ff;
+    padding: 15px;
+}
+#copyright {
+    color: white;
 }
