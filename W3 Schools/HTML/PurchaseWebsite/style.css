@@ -31,7 +31,7 @@ header {
     background-color: #0b58ff;
     color: white;
     font-size: 20px;
-   transition: background-color 0.2s;
+    transition: background-color 0.2s;
     font-weight: bold;
     border-radius: 5px;
 }
@@ -70,7 +70,7 @@ nav{
     align-items: center;;
 }
 #search:focus {
-    width: 390px;
+    width: 380px;
     transition: width 0.3s ease-in-out;
 }
 #search:webkit-search-clear-button {
@@ -85,9 +85,19 @@ nav{
     display: flex;
     margin-bottom: 26px;
 }
+#promo {
+    background-color: rgb(151, 236, 223);
+}
 main {
+    margin: 0;
     text-align: center;
     flex: 1;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+main h2, main p {
+    margin-top: 0px;
 }
 #footer-text {
     text-align: center;
@@ -101,4 +111,38 @@ footer {
 }
 #copyright {
     color: white;
+}
+.category-text {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+#products {
+    display: flex;
+    font-size: 14px;
+    margin: 10px;
+}
+.product-image {
+    width: 190px;
+    height: 190px;
+    cursor: pointer;
+}
+.product-price {
+    font-size: 15px;
+    font-weight: bold;
+}
+.product-box {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    transition: box-shadow 0.1s ease-in-out;
+    cursor: pointer;;
+}
+.product-box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s ease-in-out;
+}
+.fake-price {
+    text-decoration: line-through;
+    color: grey;
 }
